@@ -18,7 +18,7 @@ public class Page_test_1 extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_page_test_1);
 		
-		//«ü©w«ö¶s­Ì
+		//assign button
 		button_regist=(Button)findViewById(R.id.button_regist);
 		button_noname=(Button)findViewById(R.id.button_noname);
 		button_FBlogin=(Button)findViewById(R.id.button_FBlogin);
