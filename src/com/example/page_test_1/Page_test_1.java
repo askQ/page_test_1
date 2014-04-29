@@ -23,7 +23,7 @@ public class Page_test_1 extends Activity {
 		button_noname=(Button)findViewById(R.id.button_noname);
 		button_FBlogin=(Button)findViewById(R.id.button_FBlogin);
 		button_login=(Button)findViewById(R.id.button_login);
-		//°Î¦Wªº¿O¤J«ö¶s¡A¥H¤ÎÂI¤Î¤§«á·|¥Íªº¨Æ¥ó
+		//ï¿½Î¦Wï¿½ï¿½ï¿½Oï¿½Jï¿½ï¿½ï¿½sï¿½Aï¿½Hï¿½ï¿½ï¿½Iï¿½Î¤ï¿½ï¿½ï¿½|ï¿½Íªï¿½ï¿½Æ¥ï¿½
 		button_noname.setOnClickListener(new Button.OnClickListener(){
 		public void onClick(View arg0) {
 			Intent intent = new Intent();
@@ -34,6 +34,10 @@ public class Page_test_1 extends Activity {
 		);
 		button_regist.setOnClickListener(new Button.OnClickListener(){
 			public void onClick(View arg0) {
+				Intent intent = new Intent();
+				intent.setClass(Page_test_1.this, page_2_test.class);
+				startActivity(intent); 
+				Page_test_1.this.finish(); 
 				
 			}}
 			);
